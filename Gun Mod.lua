@@ -2,30 +2,70 @@ while wait() do
 pcall(function()
 ------------------------------------------------------------------------------
 local gun = require(game:GetService("Players").LocalPlayer.Backpack.Weapon1)
-gun.MagSize = 5555555
-gun.MaxAmmo = 5555555
+gun.WeaponName = "Monkey Gun go BRRR - 1"
+gun.MagSize = math.huge
+gun.MaxAmmo = math.huge
+gun.BulletPenetration = math.huge
+gun.GibPower = math.huge
+gun["ViewKick"].Min = 0
+gun["ViewKick"].Max = 0
+gun["Yaw"].Min = 0
+gun["Yaw"].Max = 0
+gun["Spread"].Min = 0
+gun["Spread"].Max = 0
 gun.FireTime = 0
 gun.Burst = 5
-gun.HeadShot = 999
-gun.TorsoShot = 999
-gun.LimbShot = 999
+gun.HeadShot = math.huge
+gun.TorsoShot = math.huge
+gun.LimbShot = math.huge
 gun.AimTime = 0.15
 gun.AimFOV = 50
 gun.MoveSpeed = 3
 gun.AimMoveSpeed = 3
 ------------------------------------------------------------------------------
 local gun2 = require(game:GetService("Players").LocalPlayer.Backpack.Weapon2)
-gun2.MagSize = 5555555
-gun2.MaxAmmo = 5555555
-gun2.FireTime = 0
-gun2.Burst = 1
-gun2.HeadShot = 999
-gun2.TorsoShot = 999
-gun2.LimbShot = 999
-gun2.AimTime = 0.15
-gun2.AimFOV = 50
-gun2.MoveSpeed = 3
-gun2.AimMoveSpeed = 3
+gun.WeaponName = "Monkey Gun go BRRR - 2"
+gun.MagSize = math.huge
+gun.MaxAmmo = math.huge
+gun.BulletPenetration = math.huge
+gun.GibPower = math.huge
+gun["ViewKick"].Min = 0
+gun["ViewKick"].Max = 0
+gun["Yaw"].Min = 0
+gun["Yaw"].Max = 0
+gun["Spread"].Min = 0
+gun["Spread"].Max = 0
+gun.FireTime = 0
+gun.Burst = 5
+gun.HeadShot = math.huge
+gun.TorsoShot = math.huge
+gun.LimbShot = math.huge
+gun.AimTime = 0.15
+gun.AimFOV = 50
+gun.MoveSpeed = 3
+gun.AimMoveSpeed = 3
+------------------------------------------------------------------------------
+local gun3 = require(game:GetService("Players").LocalPlayer.Backpack.Weapon3)
+gun.WeaponName = "Monkey Gun go BRRR - 3"
+gun.MagSize = math.huge
+gun.MaxAmmo = math.huge
+gun.BulletPenetration = math.huge
+gun.GibPower = math.huge
+gun["ViewKick"].Min = 0
+gun["ViewKick"].Max = 0
+gun["Yaw"].Min = 0
+gun["Yaw"].Max = 0
+gun["Spread"].Min = 0
+gun["Spread"].Max = 0
+gun.FireTime = 0
+gun.Burst = 1
+gun.HeadShot = math.huge
+gun.TorsoShot = math.huge
+gun.LimbShot = math.huge
+gun.AimTime = 0.15
+gun.AimFOV = 50
+gun.MoveSpeed = 3
+gun.AimMoveSpeed = 3
 ------------------------------------------------------------------------------
 end)
 end
